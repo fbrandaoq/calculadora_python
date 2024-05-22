@@ -31,6 +31,15 @@ while True:
         case _:
             print('Operação invalida')
             continue # continue é interrompe o loop, volta para o próximo loop
+    # pergunta para o usuário se deseja continuar ou encerrar
+    continuar = input('Deseja continuar? (s/n)?')
 
-
+    # verifica a opção do usuário
+    if continuar == 's':
+        continue
+    elif continuar == 'n':
+        break
+    else:
+        print('Opção invalida')
+        continue
 
